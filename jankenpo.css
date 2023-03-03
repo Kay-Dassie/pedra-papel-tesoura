@@ -1,0 +1,44 @@
+body{
+    background-image: url('https://logos-world.net/wp-content/uploads/2021/08/Hunter-x-Hunter-Emblem.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: hsla(120, 98%, 23%, 0.70);
+    background-repeat: repeat-y;
+}
+
+.player-options img,
+.enemy-options img{
+    max-width: 200px;
+    opacity: 0.7;
+    cursor: pointer;
+    padding: 10px;
+}
+.player-options,
+.enemy-options{
+    width: 50%;
+    
+}
+.align{
+    display: flex;
+}
+
+h1{
+    text-align: center;
+    background-color: hsla(120, 98%, 23%, 0.70);
+    border-radius: 30px;
+}
+
+h2{
+    text-align: center;
+    background-color: hsla(120, 98%, 23%, 0.70);
+    border-radius: 30px;
+}
+
+p{
+    background-color: hsla(120, 98%, 23%, 0.70);
+    border-radius: 30px;
+    text-align: center;
+    padding:0 50px;
+    width: 120px;
+    height: 20px;
+}
